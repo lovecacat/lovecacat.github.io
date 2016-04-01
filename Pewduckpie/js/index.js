@@ -221,7 +221,6 @@ var Spring = new spring();
 function drawEx1() {
     image1 = new Image();
     image1.src = 'http://pic.pimg.tw/hahapoint/1307887762-fc3c9ab45ac11545f7dc9705e5562509.jpg';
-    ctx.drawImage(image1, 0, 0, 400, 400);
 }
 
 function init() {
@@ -351,7 +350,6 @@ function init() {
 		collides();
 
 		if (player.isDead === true)  {
-			drawEx1();
 			gameOver();
 		}
 	}
