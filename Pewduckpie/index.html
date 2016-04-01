@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
   <head>
     <meta charset="UTF-8">
     <title>PewDuckPie</title>
@@ -12,13 +13,24 @@
      <link rel="icon" a href="https://developers.google.com/games/services/images/branding/ic_play_games_badge_green.png" type="image/x-icon"/>
     
     
+    <script>
+    </script>
+    <style>
+    #image1 img{
+    	position: absolute; 
+    	top: 0; 
+    	left: 0; 
+    	right: 0; 
+    	bottom: 0; 
+    	margin: auto; 
+    	min-width: 50%;
+    	min-height: 50%; 
+    }
+    </style>
   </head>
 
 <body>
 	<title>The PewDuckPie Jump</title>
-
-
-
 <div>
 <audio loop autoplay>
   <source src="Music/name.mp3" type="audio/mp3">
@@ -26,7 +38,10 @@
 </div>
 
 
-	<div class="container">
+	<div id="image1" class="container">
+
+	<img src="http://pic.pimg.tw/hahapoint/1307887762-fc3c9ab45ac11545f7dc9705e5562509.jpg"/>
+
 		<canvas id="canvas">
 			Aww, your browser doesn't support HTML5!
 		</canvas>
